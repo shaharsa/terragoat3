@@ -31,7 +31,7 @@ EOF
   })
 }
 
-resource "aws_ebs_volume" "web_host_storagssse" {
+resource "aws_ebs_volume" "web_host_storasgssse" {
   # unencrypted volume
   availability_zone = "${var.region}a"
   #encrypted         = false  # Setting this causes the volume to be recreated on apply 
