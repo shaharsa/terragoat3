@@ -21,7 +21,7 @@ resource "aws_s3_bucket" "data" {
   })
 }
 
-resource "aws_s3_bucket_object" "data_object123wwsadsasdasddasd" {
+resource "aws_s3_bucket_object" "data_object123wwdsadsasdasddasd" {
   bucket = aws_s3_bucket.data.id
   key    = "customer-master.xlsx"
   source = "resources/customer-master.xlsx"
