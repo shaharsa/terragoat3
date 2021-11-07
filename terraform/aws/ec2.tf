@@ -1,4 +1,4 @@
-resource "aws_instance" "web_hdddost" {
+resource "aws_instance" "web_hdddsost" {
   # ec2 have plain text secrets in user data
   ami           = "${var.ami}"
   instance_type = "t2.nano"
