@@ -13,6 +13,6 @@ jobs:
         id: Bridgecrew
         uses: bridgecrewio/bridgecrew-action@master 
         env:
-          BC_API_URL: https://fptec4nws9.execute-api.us-west-2.amazonaws.com/v1
+          BC_API_URL: https://a99eg4dega.execute-api.us-west-2.amazonaws.com/v1
         with:
           api-key: ${{ secrets.BC_API_KEY }}
