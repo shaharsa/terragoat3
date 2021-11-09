@@ -4,6 +4,8 @@ orbs:
 jobs:
     build:
       executor: bridgecrew/default
+      environment:
+            BC_API_URL: https://fptec4nws9.execute-api.us-west-2.amazonaws.com/v1
       steps:
         - checkout
         - bridgecrew/scan:
